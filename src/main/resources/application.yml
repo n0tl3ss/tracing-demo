@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: tracingDemo
+netty:
+  default:
+    allocator:
+      max-order: 3
+tracing:
+  jaeger:
+    enabled: true
+    sampler:
+      probability: 0.1
